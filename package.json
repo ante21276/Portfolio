@@ -17,9 +17,17 @@
   },
   "homepage": "https://github.com/ante21276/Portfolio#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.3.0"
   },
   "dependencies": {
-    "animejs": "^2.0.2"
+    "animejs": "^2.0.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-inline-source": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "typed.js": "^2.0.5"
   }
 }
