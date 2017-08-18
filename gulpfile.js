@@ -33,7 +33,7 @@ gulp.task('removeDist', function () {
 });
 
 gulp.task("build", ["inlinesource"], () => {
-  return gulp.src(["CSS/application.min.css", "img/img-mobile/*", "JS/app.js"], {base:"./"})
+  return gulp.src(["CSS/application.min.css", "img/**/*", "JS/app.js"], {base:"./"})
             .pipe(gulp.dest("dist"));
 });
 

@@ -20,6 +20,9 @@ header{
   outline:none;
   z-index:10000000000000;
 }
+.hamburger:hover {
+	color: #64ce83;
+}
 .cross{
   background:none;
   position:absolute;
@@ -35,8 +38,8 @@ header{
   outline:none;
   z-index:10000000000000;
 }
-.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
-.menu ul {margin: 0;padding: 0; list-style-type: none; list-style-image: none;}
+.menu{margin-top: -20px;z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {padding: 0; list-style-type: none; list-style-image: none;margin-top: 0}
 .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
 .menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
 .menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
@@ -47,7 +50,6 @@ header{
 .glyphicon-home{
   color:white;
   font-size:1.5em;
-  margin-top:5px;
   margin:0 auto;
 }
 header{display:inline-block; font-size:12px;}
